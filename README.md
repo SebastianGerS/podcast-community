@@ -27,7 +27,7 @@ database: mongoDB
 
 * run `./bin/init` in this repo to clone the clinte and api code into your repo
 
-"" Related repos
+## Related repos
 
 * https://github.com/SebastianGerS/podcast-community-client
 * https://github.com/SebastianGerS/podcast-community-api
