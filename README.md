@@ -2,7 +2,7 @@
 
 School-project with the goal of creating a community based around podcasts
 
-## fetures:
+## Intended fetures:
 
 * follow podcasts
 * download episodes
@@ -12,7 +12,7 @@ School-project with the goal of creating a community based around podcasts
 * get notificaitons when new episode are relesed/recomended to you
 * rate episodes and programs
 
-## main parts of the app
+## Main parts of the app
 
 API for podcasts: https://market.mashape.com/listennotes/listennotes 
 
@@ -21,3 +21,13 @@ frontend: React with redux
 backend: node 
 
 database: mongoDB
+
+
+## Project setup
+
+* run `./bin/init` in this repo to clone the clinte and api code into your repo
+
+"" Related repos
+
+* https://github.com/SebastianGerS/podcast-community-client
+* https://github.com/SebastianGerS/podcast-community-api
