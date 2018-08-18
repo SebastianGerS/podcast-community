@@ -2,7 +2,7 @@
 
 School-project with the goal of creating a community based around podcasts
 
-##fetures:
+## fetures:
 
 * follow podcasts
 * download episodes
@@ -12,7 +12,7 @@ School-project with the goal of creating a community based around podcasts
 * get notificaitons when new episode are relesed/recomended to you
 * rate episodes and programs
 
-## mainparts of the app
+## main parts of the app
 
 API for podcasts: https://market.mashape.com/listennotes/listennotes 
 
