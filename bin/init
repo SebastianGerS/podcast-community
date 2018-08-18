@@ -1,0 +1,4 @@
+# /bin/bash
+
+git clone git@github.com:SebastianGerS/podcast-community-api.git api
+git clone git@github.com:SebastianGerS/podcast-community-client.git client
