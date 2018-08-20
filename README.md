@@ -31,3 +31,13 @@ database: mongoDB
 
 * https://github.com/SebastianGerS/podcast-community-client
 * https://github.com/SebastianGerS/podcast-community-api
+
+## Documentation
+
+* preproject survey:
+
+   [a relative link](user-survay-data.pages)
+
+* Userpersonas and userstories:
+ 
+https://docs.google.com/document/d/1G0pdUc-anVnASBaJzLOzyOTGzSDQHntw4nZ_Wlm49bI/edit?usp=sharing
