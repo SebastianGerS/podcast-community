@@ -34,10 +34,6 @@ database: mongoDB
 
 ## Documentation
 
-* preproject survey:
+* preproject survey: [survay-data](user-survay-data.pdf)
 
-   [a relative link](user-survay-data.pages)
-
-* Userpersonas and userstories:
- 
-https://docs.google.com/document/d/1G0pdUc-anVnASBaJzLOzyOTGzSDQHntw4nZ_Wlm49bI/edit?usp=sharing
+* Userpersonas and userstories: https://docs.google.com/document/d/1G0pdUc-anVnASBaJzLOzyOTGzSDQHntw4nZ_Wlm49bI/edit?usp=sharing
