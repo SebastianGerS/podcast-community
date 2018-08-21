@@ -34,10 +34,11 @@ database: mongoDB
 
 ## Documentation
 
-* preproject survey: [survay-data](user-survay-data.pdf)
+* Preproject survey: [survay-data](user-survay-data.pdf)
 
 * Userpersonas and userstories: https://docs.google.com/document/d/1G0pdUc-anVnASBaJzLOzyOTGzSDQHntw4nZ_Wlm49bI/edit?usp=sharing
 
-* sitemap:[sitemap-model](sitemap-model.png)
-
+* Sitemap: [sitemap-model](sitemap-model.png)
 https://docs.google.com/document/d/1kVqCablrY-5T7b5RESdLV-_wVF0_D2ZHxkCfBsciGNc/edit?usp=sharing
+
+* Requirement Specification: https://docs.google.com/document/d/1xzZjNwXzCyOgcMQHjV7NhzTBWHdAfpQHxZ2fiZsOBnY/edit?usp=sharing
