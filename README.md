@@ -42,8 +42,13 @@ database: mongoDB
 
 * Sitemap: 
   * [sitemap-model-v1](sitemap-model.png) 
-  * [sitemap-model-v2](sitemap-model-v2.png) 
+  * [sitemap-model-v2](sitemap-model-v2.png)
+  * [sitemap-model-v3](sitemap-model-v3.png) 
   * https://docs.google.com/document/d/1kVqCablrY-5T7b5RESdLV-_wVF0_D2ZHxkCfBsciGNc/edit?usp=sharing
 
 * Requirement Specification: 
   * https://docs.google.com/document/d/1xzZjNwXzCyOgcMQHjV7NhzTBWHdAfpQHxZ2fiZsOBnY/edit?usp=sharing
+
+* Sketches (note that thees are wery preliminery sketches of the intended design, and I do apologise for my lack if skill when it comes to drawing)
+  * [Views](Sketches/Views/)
+  * [Modals](Sketches/Modals/)
