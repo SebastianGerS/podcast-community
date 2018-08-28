@@ -52,3 +52,10 @@ database: mongoDB
 * Sketches (note that thees are wery preliminery sketches of the intended design, and I do apologise for my lack if skill when it comes to drawing)
   * [Views](Sketches/Views/)
   * [Modals](Sketches/Modals/)
+
+* Wireframes/Mockups (toggle between mockup and wireframes by pressing ⌘ Y (Mac) or CtrlShift ⇧  3 (PC)) note that all wireframes are for mobile, slight adjustments will be made for laptop
+
+  * https://www.figma.com/file/GfVE8P1nduYgw6nWMkJMh5Sa/Thru-the-Ether?node-id=0%3A1
+
+* Prototype
+	* https://www.figma.com/proto/GfVE8P1nduYgw6nWMkJMh5Sa/Thru-the-Ether?node-id=0%3A1&scaling=scale-down
