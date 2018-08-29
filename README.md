@@ -59,3 +59,6 @@ database: mongoDB
 
 * Prototype
 	* https://www.figma.com/proto/GfVE8P1nduYgw6nWMkJMh5Sa/Thru-the-Ether?node-id=0%3A1&scaling=scale-down
+
+* Database structure
+	* https://docs.google.com/document/d/1HFzVH5swF5VcTHSc7vrW2rzpyvXFkNnvjCjOF3By-us/edit?usp=sharing
