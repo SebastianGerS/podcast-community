@@ -40,8 +40,9 @@ database: mongoDB
 * Userpersonas and userstories: 
   * https://docs.google.com/document/d/1G0pdUc-anVnASBaJzLOzyOTGzSDQHntw4nZ_Wlm49bI/edit?usp=sharing
 
-* Sitemap: 
-  * [sitemap-model-v1](sitemap-model.png) 
+* Sitemap:
+  * [sitemap-current](sitemap-current.png) 
+  * [sitemap-model-v1](sitemap-model.png)
   * [sitemap-model-v2](sitemap-model-v2.png)
   * [sitemap-model-v3](sitemap-model-v3.png) 
   * https://docs.google.com/document/d/1kVqCablrY-5T7b5RESdLV-_wVF0_D2ZHxkCfBsciGNc/edit?usp=sharing
