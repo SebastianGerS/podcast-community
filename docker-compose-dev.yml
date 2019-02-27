@@ -1,0 +1,56 @@
+version: "3.5"
+services:
+    client:
+        build:
+          context: ./client
+          dockerfile: Dockerfile
+        restart: always
+        container_name: ether-${ENVIROMENT}-client
+        environment:
+          PORT: ${CLIENT_PORT}
+        ports:
+            - ${CLIENT_PORT}:${CLIENT_PORT}
+        working_dir: /client/src/app
+        volumes:
+            - ./client:/client/src/app
+        entrypoint: ["yarn", "start"]
+        links:
+            - api
+        networks:
+            - ether
+    api:
+        build:
+          context: ./api
+          dockerfile: Dockerfile
+        restart: always
+        container_name: ether-${ENVIROMENT}-api
+        environment: 
+          PORT: ${API_PORT}
+          DB: mongodb:27017/ether-${ENVIROMENT}
+          DB_USERNAME: ${MONGODB_USERNAME}
+          DB_PASSWORD: ${MONGODB_PASSWORD}
+        ports:
+            - ${API_PORT}:${API_PORT}
+        volumes:
+            - ./api:/api
+        networks:
+            - ether
+    mongodb:
+        image: bitnami/mongodb:latest
+        restart: always
+        container_name: ether-${ENVIROMENT}-db
+        environment:
+            MONGODB_PRIMARY_ROOT_PASSWORD: ${MONGODB_PRIMARY_ROOT_PASSWORD}
+            MONGODB_USERNAME: ${MONGODB_USERNAME}
+            MONGODB_PASSWORD: ${MONGODB_PASSWORD}
+            MONGODB_DATABASE: ether-${ENVIROMENT}
+        volumes:
+            - ./data-node:/data/db
+        ports:
+            - 27017:27017
+        networks:
+            - ether
+networks:
+    ether:
+        name: ether
+        driver: bridge
