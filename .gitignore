@@ -1,4 +1,6 @@
 /client
 /api
+/data-node
+.env
 
 .DS_Store
