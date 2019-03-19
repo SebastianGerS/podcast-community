@@ -21,7 +21,7 @@ services:
           dockerfile: Dockerfile
         restart: always
         container_name: ether-${ENVIROMENT}-api
-        environment: 
+        environment:
           PORT: ${API_PORT}
           DB: mongodb:27017/ether-${ENVIROMENT}
           DB_USERNAME: ${MONGODB_USERNAME}
