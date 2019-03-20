@@ -43,7 +43,7 @@ database: mongoDB
 * run `./bin/init` in this repo to clone the clinte and api code into your repo
 * run `cp .env.example .env` and then set the .env variables
 * make sure that the instructinons for setup has been follow both for the [client](https://github.com/SebastianGerS/podcast-community-client) and [api](https://github.com/SebastianGerS/podcast-community-api) repository
-* run `docker-compose -f docker-compose-dev.yml --build up` this process will start the continers and let you follow any changes if you which to run the process in the background just add the `-d` flag
+* run `docker-compose -f docker-compose-dev.yml up --build` this process will start the continers and let you follow any changes if you which to run the process in the background just add the `-d` flag
 
 
 ### Useful commands
