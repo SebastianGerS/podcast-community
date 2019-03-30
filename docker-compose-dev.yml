@@ -45,7 +45,6 @@ services:
             MONGODB_USERNAME: ${MONGODB_USERNAME}
             MONGODB_PASSWORD: ${MONGODB_PASSWORD}
             MONGODB_DATABASE: ether-${ENVIROMENT}
-            MONGODB_PRIMARY_PORT_NUMBER: ${DB_PORT}
             MONGODB_PORT_NUMBER: ${DB_PORT}
         volumes:
             - ./data-node:/data/db
