@@ -6,6 +6,8 @@ services:
           dockerfile: Dockerfile
         restart: always
         container_name: ether-${ENVIROMENT}-client
+        depends_on:
+            - api
         environment:
           PORT: ${CLIENT_PORT}
         ports:
@@ -17,6 +19,8 @@ services:
           dockerfile: Dockerfile
         restart: always
         container_name: ether-${ENVIROMENT}-api
+        depends_on:
+            - mongodb
         environment:
           PORT: ${API_PORT}
           DB: mongodb:${DB_PORT}/ether-${ENVIROMENT}
