@@ -15,10 +15,6 @@ services:
         volumes:
             - ./client:/client/src/app
         entrypoint: ["yarn", "start"]
-        links:
-            - api
-        networks:
-            - ether
     api:
         build:
           context: ./api
@@ -34,8 +30,6 @@ services:
             - ${API_PORT}:${API_PORT}
         volumes:
             - ./api:/api
-        networks:
-            - ether
     mongodb:
         image: bitnami/mongodb:latest
         restart: always
@@ -50,9 +44,3 @@ services:
             - ./data-node:/data/db
         ports:
             - ${DB_PORT}:${DB_PORT}
-        networks:
-            - ether
-networks:
-    ether:
-        name: ether
-        driver: bridge

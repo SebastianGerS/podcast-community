@@ -11,10 +11,6 @@ services:
         ports:
             - ${CLIENT_PORT}:${CLIENT_PORT}
         working_dir: /client/src/app
-        links:
-            - api
-        networks:
-            - ether
     api:
         build:
           context: ./api
@@ -28,8 +24,6 @@ services:
           DB_PASSWORD: ${MONGODB_PASSWORD}
         ports:
             - ${API_PORT}:${API_PORT}
-        networks:
-            - ether
     mongodb:
         image: bitnami/mongodb:latest
         restart: always
@@ -43,10 +37,4 @@ services:
         volumes:
             - ./data-node:/data/db
         ports:
-            - ${DB_PORT}:${DB_PORT}
-        networks:
-            - ether
-networks:
-    ether:
-        name: ether
-        driver: bridge
+            - ${DB_PORT}
