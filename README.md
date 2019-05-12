@@ -91,10 +91,12 @@ The apps are served on from a [digitalocean](https://www.digitalocean.com/) drop
   * https://docs.google.com/document/d/1G0pdUc-anVnASBaJzLOzyOTGzSDQHntw4nZ_Wlm49bI/edit?usp=sharing
 
 * Sitemap:
-  * [sitemap-current](sitemap-current.png)
-  * [sitemap-model-v1](sitemap-model.png)
-  * [sitemap-model-v2](sitemap-model-v2.png)
-  * [sitemap-model-v3](sitemap-model-v3.png)
+  * [sitemap-current](documentation/thru-the-ether-sitemap.pdf)
+  * [sitemap-model-v4](documentation/sitemap-model-v4.png)
+  * [sitemap-model-v3](documentation/sitemap-model-v3.png)
+  * [sitemap-model-v2](documentation/sitemap-model-v2.png)
+  * [sitemap-model-v1](documentation/sitemap-model.png)
+
   * https://docs.google.com/document/d/1kVqCablrY-5T7b5RESdLV-_wVF0_D2ZHxkCfBsciGNc/edit?usp=sharing
 
 * Requirement Specification:
@@ -112,6 +114,12 @@ The apps are served on from a [digitalocean](https://www.digitalocean.com/) drop
 	* https://www.figma.com/proto/GfVE8P1nduYgw6nWMkJMh5Sa/Thru-the-Ether?node-id=0%3A1&scaling=scale-down
 
 * Database structure
-	* https://docs.google.com/document/d/1HFzVH5swF5VcTHSc7vrW2rzpyvXFkNnvjCjOF3By-us/edit?usp=sharing
+	* [thru-the-ether-api](documentation/thru-the-ether-db-diagram.png)
 
 * [logbook enteries](logbook/)
+
+* Project plan
+  * [plan](documentation/Projektplan.pdf)
+
+* Project Description
+  * [description](documentation/Projektbeskrivning.pdf)
